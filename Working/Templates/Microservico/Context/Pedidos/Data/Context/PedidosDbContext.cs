@@ -1,7 +1,7 @@
-using Pedidos.Domain.Entity;
 using Core.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Pedidos.Domain.Entity;
 
 namespace Pedidos.Data.Context
 {

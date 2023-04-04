@@ -1,9 +1,9 @@
-using Pedidos.Application.ViewModels.Dashboard;
-using Pedidos.Domain.Entity;
 using Core.Application.UseCases;
 using Core.Domain.Interfaces;
 using Core.Domain.Interfaces.Repositories;
 using Core.Extensions;
+using Pedidos.Application.ViewModels.Dashboard;
+using Pedidos.Domain.Entity;
 
 namespace Pedidos.Domain.UseCases.Dashboard
 {

@@ -1,8 +1,4 @@
 using AutoMapper;
-using Pedidos.Application;
-using Pedidos.Application.AutoMapper;
-using Pedidos.Application.Interfaces;
-using Pedidos.Data.Context;
 using Core.Application;
 using Core.Data.Repositories;
 using Core.Domain.Interfaces;
@@ -10,6 +6,10 @@ using Core.Domain.Interfaces.Repositories;
 using Core.Infrastructure;
 using Core.Utils.Extension;
 using Microsoft.Extensions.DependencyInjection;
+using Pedidos.Application;
+using Pedidos.Application.AutoMapper;
+using Pedidos.Application.Interfaces;
+using Pedidos.Data.Context;
 
 namespace Pedidos.Configuration
 {

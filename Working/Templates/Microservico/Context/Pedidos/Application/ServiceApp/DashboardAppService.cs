@@ -1,8 +1,8 @@
-using Pedidos.Application.Interfaces;
-using Pedidos.Application.ViewModels.Dashboard;
 using Core.Application;
 using Core.Domain.Interfaces;
 using Core.Extensions;
+using Pedidos.Application.Interfaces;
+using Pedidos.Application.ViewModels.Dashboard;
 
 namespace Pedidos.Application
 {

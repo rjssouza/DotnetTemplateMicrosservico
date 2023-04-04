@@ -6,12 +6,10 @@
     <members>
         <member name="T:Pedidos.Application.AutoMapper.DashboardMapperProfile">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.AutoMapper.DashboardMapperProfile.#ctor">
              <summary>
-            
              </summary>
         </member>
         <member name="T:Pedidos.Application.Interfaces.IDashboardAppService">
@@ -21,7 +19,6 @@
         </member>
         <member name="M:Pedidos.Application.Interfaces.IDashboardAppService.ObterViewModel">
              <summary>
-            
              </summary>
              <returns></returns>
         </member>
@@ -32,47 +29,39 @@
         </member>
         <member name="M:Pedidos.Application.DashboardAppService.#ctor(System.IServiceProvider)">
              <summary>
-            
              </summary>
              <param name="serviceProvider"></param>
              <returns></returns>
         </member>
         <member name="M:Pedidos.Application.DashboardAppService.ObterViewModel">
              <summary>
-            
              </summary>
              <returns></returns>
         </member>
         <member name="T:Pedidos.Application.ViewModels.AuditoriaComumViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.AuditoriaComumViewModel.DtReg">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.AuditoriaComumViewModel.UsReg">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.DashboardViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.DashboardViewModel.#ctor(Core.Application.Seguranca.UserInfo)">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.DashboardViewModel.EhAdmin">
              <summary>
-            
              </summary>
              <value></value>
         </member>
@@ -84,36 +73,30 @@
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolucaoMensalViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolucaoMensalViewModel.#ctor(System.Int32,System.Int32)">
              <summary>
-            
              </summary>
              <param name="mes"></param>
              <param name="valor"></param>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolucaoMensalViewModel.Mes">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolucaoMensalViewModel.Valor">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoMensalTipoViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoMensalTipoViewModel.#ctor(System.String,System.String,System.Collections.Generic.List{Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolucaoMensalViewModel})">
              <summary>
-            
              </summary>
              <param name="descricao"></param>
              <param name="cor"></param>
@@ -121,106 +104,88 @@
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoMensalTipoViewModel.Cor">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoMensalTipoViewModel.Descricao">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoMensalTipoViewModel.EvolutivoMensal">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoViewModel.#ctor(System.Collections.Generic.List{Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoMensalTipoViewModel},System.Collections.Generic.List{Pedidos.Application.ViewModels.Dashboard.TotalPorcentagem})">
              <summary>
-            
              </summary>
              <param name="evolucaoMensal"></param>
              <param name="totalizadores"></param>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoViewModel.EvolucaoMensal">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Evolutivo.EvolutivoViewModel.Totalizadores">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.FiltroComumViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.FiltroComumViewModel.#ctor(Core.Application.Seguranca.UserInfo)">
              <summary>
-            
              </summary>
              <param name="userInfo"></param>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.FiltroComumViewModel.DataCorrente">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.FiltroComumViewModel.NomeUsuario">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.FiltroComumViewModel.UserInfo">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesMaquinaViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesMaquinaViewModel.#ctor(System.Int32)">
              <summary>
-            
              </summary>
              <param name="total"></param>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesMaquinaViewModel.Total">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesMaquinaViewModel.TotalizadorMaquina">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.#ctor(System.Int32,System.Int32,System.Int32)">
              <summary>
-            
              </summary>
              <param name="totalIncidentes"></param>
              <param name="comParagem"></param>
@@ -228,87 +193,72 @@
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.ComParagem">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.HPDC">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.Matching">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.SemParagem">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.SPM">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.TotalizadorPlanta">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.IncidentesPorAreaViewModel.Usinagem">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Incidentes.TotalizadorPlantaViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Incidentes.TotalizadorPlantaViewModel.#ctor">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.TotalizadorPlantaViewModel.DentroSla">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.TotalizadorPlantaViewModel.Descricao">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.TotalizadorPlantaViewModel.ForaSla">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Incidentes.TotalizadorPlantaViewModel.Total">
              <summary>
-            
              </summary>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel.#ctor(System.Int32,System.Int32,System.String,System.String,System.String)">
              <summary>
-            
              </summary>
              <param name="qtdTotalChamados"></param>
              <param name="total"></param>
@@ -318,24 +268,20 @@
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel.Arrow">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel.ValorMensal">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorViewModel.#ctor(Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel,Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel,Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel,Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorInfoViewModel)">
              <summary>
-            
              </summary>
              <param name="totalChamados"></param>
              <param name="chamadosEncerrados"></param>
@@ -344,36 +290,30 @@
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorViewModel.ChamadosAbertos">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorViewModel.ChamadosEmAtraso">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorViewModel.ChamadosEncerrados">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.Totalizadores.TotalizadorViewModel.ChamadosPendentes">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Dashboard.TotalPorcentagem">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Application.ViewModels.Dashboard.TotalPorcentagem.#ctor(System.Int32,System.Int32,System.String,System.String)">
              <summary>
-            
              </summary>
              <param name="qtdTotalChamados"></param>
              <param name="total"></param>
@@ -382,66 +322,54 @@
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.TotalPorcentagem.Cor">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.TotalPorcentagem.Descricao">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.TotalPorcentagem.Porcentagem">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Dashboard.TotalPorcentagem.Total">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Application.ViewModels.MaquinaViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.MaquinaViewModel.Bezeichnung">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.MaquinaViewModel.Id">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.MaquinaViewModel.Liniennummer">
              <summary>
-            
              </summary>
         </member>
         <member name="T:Pedidos.Application.ViewModels.Chamado.UsuarioViewModel">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Chamado.UsuarioViewModel.UsReg">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Chamado.UsuarioViewModel.UsSolicitante">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Application.ViewModels.Chamado.UsuarioViewModel.UsSolicitanteNomeCompleto">
              <summary>
-            
              </summary>
         </member>
         <member name="T:Pedidos.Configuration.AppRegistration">
@@ -458,381 +386,290 @@
         </member>
         <member name="T:Pedidos.Data.Context.PedidosDbContext">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Data.Context.PedidosDbContext.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
              <summary>
-            
              </summary>
              <param name="configuration"></param>
         </member>
         <member name="P:Pedidos.Data.Context.PedidosDbContext.MaquinaEntity">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Data.Context.PedidosDbContext.DbName">
              <summary>
-            
              </summary>
         </member>
         <member name="T:Pedidos.Domain.Entity.AuditoryEntity`1">
              <summary>
-            
              </summary>
              <typeparam name="TEntity"></typeparam>
         </member>
         <member name="P:Pedidos.Domain.Entity.AuditoryEntity`1.DtReg">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="P:Pedidos.Domain.Entity.AuditoryEntity`1.UsReg">
              <summary>
-            
              </summary>
              <value></value>
         </member>
         <member name="T:Pedidos.Domain.Entity.MaquinaEntity">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Domain.Entity.MaquinaEntity.#ctor">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Entity.MaquinaEntity.Bezeichnung">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Entity.MaquinaEntity.Liniennummer">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Domain.Entity.MaquinaEntity.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{Pedidos.Domain.Entity.MaquinaEntity})">
              <summary>
-            
              </summary>
              <param name="builder"></param>
         </member>
         <member name="T:Pedidos.Domain.Enum.StatusEnum">
              <summary>
-            
              </summary>
         </member>
         <member name="F:Pedidos.Domain.Enum.StatusEnum.Novo">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.StatusEnum.Atendimento">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.StatusEnum.Atraso">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.StatusEnum.Finalizado">
-            
         </member>
         <member name="T:Pedidos.Domain.Enum.TagBadgeConst">
              <summary>
-            
              </summary>
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Acesso">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Carrosel">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.CoreShop">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.HPDC">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Incidente">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Machining">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Maquina">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Outros">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Relatorios">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TagBadgeConst.Usinagem">
-            
         </member>
         <member name="T:Pedidos.Domain.Enum.TipoIconeEnum">
              <summary>
-            
              </summary>
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.BAT">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.CS">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.DLL">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.DOC">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.DOCX">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.EXE">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.FILE">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.GIF">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.HTML">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.JPEG">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.JPG">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.JS">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.JSON">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.M4A">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.MKV">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.MP3">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.MP4">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.MPG">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.PDF">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.PNG">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.RAR">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.TAR">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.TEXT_HTML">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.WMV">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.XLS">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.XLSX">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.XML">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.ZIP">
-            
         </member>
         <member name="F:Pedidos.Domain.Enum.TipoIconeEnum.listaIcone">
-            
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Bat">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Cs">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Dll">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Doc">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Docx">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Exe">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.File">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Gif">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Html">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Jpeg">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Jpg">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Js">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Json">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.ListaIcone">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.M4a">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Mkv">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Mp3">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Mp4">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Mpg">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Pdf">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Png">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Rar">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Tar">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.TextHtml">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Wmv">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Xls">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Xlsx">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Xml">
              <summary>
-            
              </summary>
         </member>
         <member name="P:Pedidos.Domain.Enum.TipoIconeEnum.Zip">
              <summary>
-            
              </summary>
         </member>
         <member name="T:Pedidos.Domain.UseCases.Dashboard.DashboardUseCase">
              <summary>
-            
              </summary>
         </member>
         <member name="M:Pedidos.Domain.UseCases.Dashboard.DashboardUseCase.#ctor(System.IServiceProvider)">
              <summary>
-            
              </summary>
              <param name="serviceProvider"></param>
              <returns></returns>
         </member>
         <member name="M:Pedidos.Domain.UseCases.Dashboard.DashboardUseCase.ExecuteInternal(Pedidos.Application.ViewModels.Dashboard.FiltroComumViewModel)">
              <summary>
-            
              </summary>
              <param name="entry"></param>
              <returns></returns>
         </member>
         <member name="M:Pedidos.Domain.UseCases.Dashboard.DashboardUseCase.ValidateEntry(Pedidos.Application.ViewModels.Dashboard.FiltroComumViewModel)">
              <summary>
-            
              </summary>
              <param name="entry"></param>
         </member>

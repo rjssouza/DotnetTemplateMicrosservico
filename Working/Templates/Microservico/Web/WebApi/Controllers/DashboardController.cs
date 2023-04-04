@@ -1,8 +1,8 @@
-using Pedidos.Application.Interfaces;
-using Pedidos.Application.ViewModels.Dashboard;
 using Core.Application.Seguranca;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Pedidos.Application.Interfaces;
+using Pedidos.Application.ViewModels.Dashboard;
 
 namespace WebApi.Controllers
 {

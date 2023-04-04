@@ -1,12 +1,12 @@
-using Pedidos.Configuration;
-using WebApi.Attribute;
-using WebApi.Filter;
 using Core.Utils.Extension;
 using Core.Utils.Json;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.OpenApi.Models;
+using Pedidos.Configuration;
 using System.Text.Json;
+using WebApi.Attribute;
+using WebApi.Filter;
 
 namespace WebApi
 {
