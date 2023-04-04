@@ -6,16 +6,19 @@
     <members>
         <member name="T:WebApi.Attribute.CustomHeaderSwaggerAttribute">
              <summary>
+            
              </summary>
         </member>
         <member name="M:WebApi.Attribute.CustomHeaderSwaggerAttribute.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
              <summary>
+            
              </summary>
              <param name="operation"></param>
              <param name="context"></param>
         </member>
         <member name="T:WebApi.Controllers.DashboardController">
              <summary>
+            
              </summary>
         </member>
         <member name="M:WebApi.Controllers.DashboardController.#ctor(System.IServiceProvider)">
@@ -75,21 +78,25 @@
         </member>
         <member name="T:WebApi.Program">
              <summary>
+            
              </summary>
         </member>
         <member name="M:WebApi.Program.CreateHostBuilder(System.String[])">
              <summary>
+            
              </summary>
              <param name="args"></param>
              <returns></returns>
         </member>
         <member name="M:WebApi.Program.Main(System.String[])">
              <summary>
+            
              </summary>
              <param name="args"></param>
         </member>
         <member name="T:WebApi.Startup">
              <summary>
+            
              </summary>
         </member>
         <member name="M:WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
@@ -107,6 +114,7 @@
         </member>
         <member name="M:WebApi.Startup.SecureApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
              <summary>
+            
              </summary>
              <param name="services"></param>
              <param name="configuration"></param>
@@ -118,6 +126,7 @@
         </member>
         <member name="M:WebApi.Utils.GetContentType(System.String)">
              <summary>
+            
              </summary>
         </member>
     </members>
