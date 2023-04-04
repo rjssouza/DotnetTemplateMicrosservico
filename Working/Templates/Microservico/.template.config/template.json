@@ -11,18 +11,19 @@
     },
     "sourceName": "Pedidos",
     "preferNameDirectory":true,
+    "symbolInfo": {
+      "audience": {
+        "longName": "audience",
+        "shortName": "au"
+      }
+    },
     "symbols": {
-      "contextName": {
-        "type": "parameter",
-        "description": "Your Auth0 domain.",
-        "defaultValue": "Context",
-        "replaces":"{CONTEXT_NAME}"
-      },
       "audience": {
         "type": "parameter",
+        "datatype": "string",
         "description": "Your Auth0 client id.",
         "defaultValue": "WebApi",
-        "replaces":"{AUDIENCE}"
+        "replaces":"AUDIENCE-PATH"
       }   
     }
   }
