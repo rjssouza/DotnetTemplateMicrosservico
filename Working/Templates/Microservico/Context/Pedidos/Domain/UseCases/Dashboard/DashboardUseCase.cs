@@ -12,7 +12,7 @@ namespace Pedidos.Domain.UseCases.Dashboard
     /// </summary>
     public class DashboardUseCase : UseCase<FiltroComumViewModel, DashboardViewModel>, IUseCase<FiltroComumViewModel, DashboardViewModel>
     {
-        private readonly IEntityRepository<MaquinaEntity> _maquinaRepository;
+        private readonly IEntityRepository<MaquinaEntity, int> _maquinaRepository;
 
         /// <summary>
         ///
@@ -21,7 +21,7 @@ namespace Pedidos.Domain.UseCases.Dashboard
         /// <returns></returns>
         public DashboardUseCase(IServiceProvider serviceProvider) : base(serviceProvider)
         {
-            _maquinaRepository = serviceProvider.GetRequiredService<IEntityRepository<MaquinaEntity>>();
+            _maquinaRepository = serviceProvider.GetRequiredService<IEntityRepository<MaquinaEntity, int>>();
         }
 
         /// <summary>

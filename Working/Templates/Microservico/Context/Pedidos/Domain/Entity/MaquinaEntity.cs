@@ -7,7 +7,7 @@ namespace Pedidos.Domain.Entity
     /// <summary>
     ///
     /// </summary>
-    public class MaquinaEntity : Entity<MaquinaEntity>
+    public class MaquinaEntity : Entity<MaquinaEntity, int>
     {
         /// <summary>
         ///

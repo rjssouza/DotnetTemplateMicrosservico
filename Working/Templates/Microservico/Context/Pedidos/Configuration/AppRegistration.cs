@@ -29,11 +29,11 @@ namespace Pedidos.Configuration
                     .AddHttpClient()
                     .AddHttpContextAccessor();
 
-            services.AddTransient<IDashboardAppService>(s => ServiceAppProxy<IDashboardAppService>.Wrap(s, new DashboardAppService(s)));
+            services.AddTransient(s => ServiceAppProxy<IDashboardAppService>.Wrap<ServiceAppProxy<IDashboardAppService>>(s, new DashboardAppService(s)));
             services.AddTransient<HttpTokenClientFactory>();
 
             services.RegisterAllTypes(typeof(IUseCase<,>), new[] { typeof(AppRegistration).Assembly });
-            services.AddScoped<IMapper>((s) =>
+            services.AddScoped((s) =>
             {
                 return GetMapper();
             });
@@ -46,7 +46,7 @@ namespace Pedidos.Configuration
             services.AddDbContext<PedidosDbContext>();
             services.AddTransient<IGlobalDbTransaction, GlobalDbTransaction<PedidosDbContext>>();
             services.AddTransient<IDbContextFactory, GlobalDbTransaction<PedidosDbContext>>();
-            services.AddTransient(typeof(IEntityRepository<>), typeof(EntityRepository<>));
+            services.AddTransient(typeof(IEntityRepository<,>), typeof(EntityRepository<,>));
 
             return services;
         }

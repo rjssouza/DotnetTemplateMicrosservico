@@ -6,8 +6,8 @@ namespace Pedidos.Domain.Entity
     ///
     /// </summary>
     /// <typeparam name="TEntity"></typeparam>
-    public class AuditoryEntity<TEntity> : Entity<TEntity>
-        where TEntity : Entity<TEntity>
+    public class AuditoryEntity<TEntity> : Entity<TEntity, int>
+        where TEntity : Entity<TEntity, int>
     {
         /// <summary>
         ///
