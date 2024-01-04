@@ -9,7 +9,7 @@ Caso ja tenha o template instalado executar:
 * dotnet new uninstall Componentes.Utility.Templates
 
 Instalar novo template
-* dotnet new install .\bin\Debug\Componentes.Utility.Templates.1.0.0.nupkg
+* dotnet new install .\bin\Release\Componentes.Utility.Templates.1.0.0.nupkg
 
 Ao final vc devera ver o resultado 
 Success: Componentes.Utility.Templates::1.0.0 installed the following templates:
